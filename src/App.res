@@ -29,5 +29,6 @@ let make = () => {
         {React.string("Learn React")}
       </a>
     </header>
+    <Layout> {"hello"->React.string} </Layout>
   </div>
 }
