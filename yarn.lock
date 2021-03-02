@@ -209,7 +209,7 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@snowpack/plugin-dotenv@^2.0.5":
+"@snowpack/plugin-dotenv@2.0.5":
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@snowpack/plugin-dotenv/-/plugin-dotenv-2.0.5.tgz#e8bcc5cb59c951f7d560e36397960dd2252a56ee"
   integrity sha512-y54lwYRDpTfDTU3uopHLND0DKIjjyWiYxhvOPfZvC4OpOd7UIRwMdSOd5XLZJPEBJ4BD38lDLiXh+ODfNDqhnQ==
@@ -217,7 +217,7 @@
     dotenv "^8.2.0"
     dotenv-expand "^5.1.0"
 
-"@snowpack/plugin-react-refresh@^2.4.0":
+"@snowpack/plugin-react-refresh@2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@snowpack/plugin-react-refresh/-/plugin-react-refresh-2.4.0.tgz#a91ae1285621763438d759a75a04b0a7bf26fc23"
   integrity sha512-qz2BzdWa5DPK7teTRrh8/SY81mWt//NZmRUUzrQZS2I9d9St8GfSAbFgeJunpBCpPXW9QaaI7huNaoTx/+1/Ag==
@@ -226,7 +226,7 @@
     "@babel/plugin-syntax-class-properties" "^7.10.0"
     react-refresh "^0.9.0"
 
-"@snowpack/plugin-run-script@^2.3.0":
+"@snowpack/plugin-run-script@2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@snowpack/plugin-run-script/-/plugin-run-script-2.3.0.tgz#3775778aca61342e6df47b4198676fafb5cf8c07"
   integrity sha512-rIbD67uzTPkzemMFbw5seUm/hZFrToTSqN/SGGq5XaU45ftX2sCRzp0lqSH+lZYhC5QTSm5RxXW1HcuPOlbPXQ==
@@ -264,7 +264,7 @@ browserslist@^4.14.5:
     escalade "^3.1.1"
     node-releases "^1.1.70"
 
-bs-platform@^8.4.2:
+bs-platform@8.4.2:
   version "8.4.2"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-8.4.2.tgz#778dabd1dfb3bc95e0086c58dabae74e4ebdee8a"
   integrity sha512-9q7S4/LLV/a68CweN382NJdCCr/lOSsJR3oQYnmPK98ChfO/AdiA3lYQkQTp6T+U0I5Z5RypUAUprNstwDtMDQ==
@@ -549,7 +549,7 @@ pify@^2.3.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
   integrity sha1-7RQaasBDqEnqWISY59yosVMw6Qw=
 
-react-dom@^17.0.1:
+react-dom@17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.1.tgz#1de2560474ec9f0e334285662ede52dbc5426fc6"
   integrity sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug==
@@ -563,7 +563,7 @@ react-refresh@^0.9.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.9.0.tgz#71863337adc3e5c2f8a6bfddd12ae3bfe32aafbf"
   integrity sha512-Gvzk7OZpiqKSkxsQvO/mbTN1poglhmAV7gR/DdIrRrSMXraRQQlfikRJOr3Nb9GTMPC5kof948Zy6jJZIFtDvQ==
 
-react@^17.0.1:
+react@17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz#6e0600416bd57574e3f86d92edba3d9008726127"
   integrity sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==
@@ -571,7 +571,7 @@ react@^17.0.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-reason-react@^0.9.1:
+reason-react@0.9.1:
   version "0.9.1"
   resolved "https://registry.yarnpkg.com/reason-react/-/reason-react-0.9.1.tgz#30a887158200b659aa03e2d75ff4cc54dc462bb0"
   integrity sha512-nlH0O2TDy9KzOLOW+vlEQk4ExHOeciyzFdoLcsmmiit6hx6H5+CVDrwJ+8aiaLT/kqK5xFOjy4PS7PftWz4plA==
@@ -626,7 +626,7 @@ signal-exit@^3.0.3:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
 
-snowpack@^3.0.7:
+snowpack@3.0.13:
   version "3.0.13"
   resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-3.0.13.tgz#25e6434b186d916f69b0bae6325bda4f1451c035"
   integrity sha512-USTcpfJ68rbuFvUygw+3n9qS1CC/tGsr/JNVc6FNk0ZRfGBE4OmB+Mmk5nWtdxi546GeCr/GvveJenYLen/WpA==
