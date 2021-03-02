@@ -221,12 +221,12 @@
   resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
   integrity sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==
 
-"@jsiebern/bs-material-ui@^2.0.2":
+"@jsiebern/bs-material-ui@2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@jsiebern/bs-material-ui/-/bs-material-ui-2.0.2.tgz#e3d32b482c62ae1eded4b418dd2313c25cd73639"
   integrity sha512-L/XJ9I6PRiBMpPgrTvLih0CeAGJAGWT4MBrULef0/CDuDRR3BJHydF11LV9cn9wyNpM3ugHr7aR28e3udtTAng==
 
-"@material-ui/core@^4.11.3":
+"@material-ui/core@4.11.3":
   version "4.11.3"
   resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-4.11.3.tgz#f22e41775b0bd075e36a7a093d43951bf7f63850"
   integrity sha512-Adt40rGW6Uds+cAyk3pVgcErpzU/qxc7KBR94jFHBYretU4AtWZltYcNsbeMn9tXL86jjVL1kuGcIHsgLgFGRw==
