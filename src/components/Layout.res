@@ -22,7 +22,9 @@ let make = (~children: React.element) => {
     <SwipeableDrawer _open onOpen onClose>
       <List>
         <ListItem> <ListItemText> {React.string("first menu")} </ListItemText> </ListItem>
+        <Divider />
         <ListItem> <ListItemText> {React.string("second menu")} </ListItemText> </ListItem>
+        <Divider />
         <ListItem> <ListItemText> {React.string("third menu")} </ListItemText> </ListItem>
       </List>
     </SwipeableDrawer>
