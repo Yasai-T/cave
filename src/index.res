@@ -7,7 +7,10 @@ external accept: unit => unit = "accept"
 
 %%raw(`import './index.css';`)
 
-ReactDOMRe.renderToElementWithId(<React.StrictMode> <App /> </React.StrictMode>, "root")
+switch ReactDOM.querySelector("#root") {
+| Some(root) => ReactDOM.render(<React.StrictMode> <App /> </React.StrictMode>, root)
+| None => () // do nothing
+}
 
 if hot {
   accept()
