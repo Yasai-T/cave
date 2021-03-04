@@ -12,11 +12,17 @@ let make = (~children: React.element) => {
     setOpen(_ => false)
   }
 
+  let onTitleClick = _ => {
+    ReasonReactRouter.push("/")
+  }
+
   <>
-    <AppBar>
+    <AppBar position=#Sticky>
       <Toolbar>
         <IconButton onClick={onOpen}> <MenuIcon /> </IconButton>
-        <Typography variant=#H6> {React.string("Cave")} </Typography>
+        <Button onClick={onTitleClick}>
+          <Typography variant=#H6> {React.string("Cave")} </Typography>
+        </Button>
       </Toolbar>
     </AppBar>
     <SwipeableDrawer _open onOpen onClose>
